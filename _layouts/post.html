@@ -8,6 +8,26 @@ layout: default
     {{ page.date | date: "%B %-d, %Y" }}
     {% if page.author %} - {{ page.author }}{% endif %}
     </p>
+
+    <!-- Share Post via Social Media -->
+    <p class="meta">
+
+    <!-- Twitter -->
+    <a href="http://twitter.com/share?url=url('{{ page.url }}')&text={{ page.title }}&via={{site.theme_settings.twitter }}" target="_blank" class="share-btn twitter">
+          <i class="fa fa-twitter-square fa-2x"></i>
+    </a>
+
+    <!-- Facebook -->
+    <a href="http://www.facebook.com/sharer/sharer.php?u=url('{{ page.url }}')" target="_blank" class="share-btn facebook">
+          <i class="fa fa-facebook-square fa-2x"></i>
+    </a>
+
+    <!-- Linkedin -->
+    <a href="http://www.linkedin.com/shareArticle?url=url('{{ page.url }}')&title={{ page.title }}&source=", target="_blank" class="share-btn linkedin">
+          <i class="fa fa-linkedin-square fa-2x"></i>
+    </a>
+
+    </p>
   </header>
   <section class="post-content">{{ content }}</section>
 </article>

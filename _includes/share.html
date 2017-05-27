@@ -1,0 +1,19 @@
+<!-- Share Post via Social Media -->
+<p class="meta">
+
+<!-- Twitter -->
+<a href="http://twitter.com/share?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&text={{ page.title }}&via={{site.theme_settings.twitter }}" target="_blank" class="share-btn twitter">
+      <i class="fa fa-twitter-square fa-2x"></i>
+</a>
+
+<!-- Facebook -->
+<a href="http://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.baseurl | prepend: site.url }}" target="_blank" class="share-btn facebook">
+      <i class="fa fa-facebook-square fa-2x"></i>
+</a>
+
+<!-- Linkedin -->
+<a href="http://www.linkedin.com/shareArticle?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&title={{ page.title }}&source=", target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin-square fa-2x"></i>
+</a>
+
+</p>

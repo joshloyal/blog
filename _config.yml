@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
-url: "joshloyal.github.io" # the base hostname & protocol for your site
+url: "https://joshloyal.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -66,7 +66,6 @@ paginate_path: "blog/page:num"
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
-permalink: "/:title"
 sass:
   sass_dir: _sass
   style: :compressed

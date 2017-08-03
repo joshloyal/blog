@@ -66,6 +66,7 @@ paginate_path: "blog/page:num"
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
+permalink: "/:title"
 sass:
   sass_dir: _sass
   style: :compressed

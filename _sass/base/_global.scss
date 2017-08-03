@@ -64,10 +64,16 @@ table {
     display: inline-block;
   }
 }
+tr:hover {
+    background-color: $table-hover-color;
+}
 td,
 th {
   padding: 0.5em 1em;
   border: 1px solid $border-color;
+  border-left: 0px;
+  border-right: 0px;
+  border-collapse: collapse;
   text-align: left;
 }
 table,

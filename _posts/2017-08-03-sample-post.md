@@ -1,7 +1,21 @@
 ---
 layout: post
-title: Variational Autoencoders
+title: Setting the Stage
 ---
+
+Lately I've been interested in the difference between machine-learning and statistics.
+
+
+$$ \huge \hat\beta \textrm{ vs. } \hat y $$
+
+Another difference is that of feature engineering. This is not as fine grained, but classic statistics doesn't say a lot about
+the features you put into your model. Machine learning takes this as part of the algorithm (kernels for SVMs or just through universal approximators
+in the case of Deep Learning).
+
+Also serve as a place to cronical my ideas. I'm sure I'll look back at these posts and think I was being naive, but it will be nice to see a percieved progression in thought.
+
+"The story the data tells us is often the one we'd like to hear, and we usually make srue that it has a happy ending." Nate Silver, The Signal and the Noise.
+
 Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.
 
 * Consectetur adipiscing elit
@@ -11,7 +25,7 @@ Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Mae
 Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
 
 <div class="embedvideo">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/EyzXCFUqirs" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EyzXCFUqirs" frameborder="0" allowfullscreen></iframe>
 </div>
 
 Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula *semper consectetur sagittis*, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.

@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Joshua Loyal
 title: Hello world!
 ---
 

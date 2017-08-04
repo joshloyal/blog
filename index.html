@@ -14,7 +14,7 @@ layout: default
     {% for post in paginator.posts %}
     <div class="post-teaser">
       <header>
-        <h1>
+        <h1 style=>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}
           </a>
@@ -23,6 +23,11 @@ layout: default
           {{ post.date | date: "%B %-d, %Y" }}
         </p>
       </header>
+      <div>
+      {% if post.thumbnail %}
+        <img  src="{{ site.baseurl }}/{{ post.thumbnail }}"/>
+      {% endif %}
+      </div>
       <div class="excerpt">
         {{ post.excerpt }}
         <a class="button" href="{{ post.url | prepend: site.baseurl }}">

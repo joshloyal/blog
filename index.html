@@ -23,11 +23,11 @@ layout: default
           {{ post.date | date: "%B %-d, %Y" }}
         </p>
       </header>
-      <div>
       {% if post.thumbnail %}
+      <div>
         <img  src="{{ site.baseurl }}/{{ post.thumbnail }}"/>
-      {% endif %}
       </div>
+      {% endif %}
       <div class="excerpt">
         {{ post.excerpt }}
         <a class="button" href="{{ post.url | prepend: site.baseurl }}">
